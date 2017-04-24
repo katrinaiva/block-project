@@ -1,0 +1,25 @@
+@media (min-width: 1120px) {
+
+  .header {
+    height: 426px;
+    background: #406472 url(../img/bg.png) no-repeat center;
+}
+
+  .header__content {
+    @include container();
+    outline: 1px solid red;
+    border-top: 1px solid transparent;
+  }
+
+  .header__btn {
+    display: inline-block;
+    padding: 20px 60px;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #49bc1f;
+    border-radius: 2px;
+  }
+
+}

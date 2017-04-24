@@ -1,0 +1,42 @@
+@media (min-width: 1120px) {
+
+  .review__text {
+    position: relative;
+    margin: 0;
+    margin-bottom: 53px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -20px;
+      left: 0px;
+      width: 70px;
+      height: 1px;
+      background: #809aa1;
+    }
+  }
+
+  .review__footer {
+    color: #ffffff;
+    font-style: italic;
+    & span {
+      font-size: 14px;
+      line-height: 25px;
+      color: #98abaf;
+    }
+  }
+
+  .review {
+    margin: 0;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    width: 737px;
+  }
+
+  .review__auhor-name {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
