@@ -3,7 +3,7 @@ body {
   width: 100%;
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 14px;
-  line-height: 22px;
+  line-height: 20px;
   color: #666666;
   background: #eceeef;
 }
@@ -15,6 +15,16 @@ body {
 img {
   max-width: 100%;
   height: auto;
+}
+
+td {
+  height: 88px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .col-1 {
@@ -49,4 +59,8 @@ img {
 .right {
   padding-right: 21px;
   text-align: right;
+}
+
+.center {
+  text-align: center;
 }

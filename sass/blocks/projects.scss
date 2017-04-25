@@ -64,15 +64,16 @@
     background: #dde1e3;
     color: #85959e;
     border-left: 1px solid #eceeef;
-    &--left {
-      padding-left: 21px;
-      text-align: left;
-    }
-    &--right {
-      padding-right: 21px;
-      text-align: right;
-    }
+//    &--left {
+//      padding-left: 21px;
+//      text-align: left;
+//    }
+//    &--right {
+//      padding-right: 21px;
+//      text-align: right;
+//    }
   }
+
 
   .projects-table__tr {
     position: relative;
@@ -89,6 +90,49 @@
     &:nth-child(2n) {
       background: #e8ebed;
     }
+    &:nth-child(n){
+      &::before {
+      content: "";
+      position: absolute;
+      top: 1px;
+      left: 0;
+      height: 1px;
+      width: 100%;
+      background: #ffffff;
+    }
+    }
   }
 
+  .projects-table__cost {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2a4656;
+  }
+
+  .projects-table__salary {
+    font-size: 34px;
+    font-weight: bold;
+    color: #016da7;
+  }
+
+  .projects-table__ok {
+    background: url(../img/ok.png) no-repeat center;
+  }
+
+  .projects-table__recruiter {
+    font-size: 12px;
+    color: #8e9ba3;
+    & img {
+      float: left;
+    }
+    & p {
+      margin: 0;
+      padding-left: 55px;
+    }
+    & span {
+      font-size: 14px;
+      font-weight: bold;
+      color: #09579c;
+    }
+  }
 }

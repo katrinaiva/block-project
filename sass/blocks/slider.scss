@@ -1,3 +1,26 @@
 .slider {
 
 }
+
+.slider__toggles {
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 76px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40px;
+}
+
+.slider__toggle {
+  width: 14px;
+  height: 14px;
+  background: #d5d6d7;
+  border-radius: 50%;
+  cursor: pointer;
+  &--active {
+    background: #006ca9;
+  }
+}
